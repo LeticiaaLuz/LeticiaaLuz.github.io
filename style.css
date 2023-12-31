@@ -1,0 +1,574 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Raleway:wght@800&display=swap');
+
+/* CSS DA PARTE DO CABECALHO */
+
+body {
+    margin: 0;
+    width: 100%;
+}
+
+.banner{
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2E7BA2;
+    padding: 2%;
+    border: none;
+    box-sizing: border-box;
+    
+}
+
+.links a:hover {
+	color:#f7e0ba;
+	text-decoration: underline;
+}
+
+.cabecalho {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   box-sizing: border-box;
+   width: 1440px;
+   margin: 0 auto;
+}
+
+.logo {
+    width: 233.9px;
+
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+    list-style: none;
+    
+}
+ nav a {
+    text-decoration: none;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 20px;
+ }
+
+/* CSS DA PARTE DO BANNER DA PAGINA INICIAL */
+
+.banner-boas-vindas {
+    display: flex;
+    background: url(verao.png);
+    height: 407px;
+    width: 100%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100%;
+    padding: 0 180px;       
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.banner-texto {
+    width: 542px;
+    color: #444444;
+    font-family: 'Calistoga', cursive;
+    font-size: 64px;
+    text-align: center;
+}
+
+
+/* CSS DA PARTE PRINCIPAL DA PAGINA INICIAL */
+
+main {
+    background: linear-gradient(#C8DEEF,#FBF0DD,#FACF9D);
+    
+}
+
+.introducao {
+    display: flex;
+    justify-content: center;
+    padding: 8% 10%;
+    box-sizing: border-box;
+    padding: 64px 120px;
+    
+ }
+
+ .introducao__imagem {
+    padding: 0 24px;;
+}
+
+.introducao__convite {
+    width: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0 24px;;
+   
+}
+
+.introducao__datalocal {
+    width: 392px;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    color: #444444;
+    font-family: 'Raleway', sans-serif;
+}
+
+.introducao__texto {
+    width: 540px;
+    font-size: 20px;
+    font-weight: 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    line-height: 40px;
+}
+
+.botao__ingresso {
+    display: flex;
+    justify-content: center;
+    width: 256px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    border-radius: 16px;
+    background-color: #2E7BA2;
+    box-shadow: 5px 5px 0 0 #444444;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+
+    padding:  16px  8px;
+}
+
+.botao__ingresso:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+.introducao__comprar__ingresso {
+    margin-right: 16px;
+}
+.material-symbols-rounded {
+    width: 32px;
+    font-weight: 600px;
+
+}
+
+.introducao__imagem {
+    width: 609px;
+}
+
+/* CSS DA PARTE DO LINE-UP */
+
+.lineup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.lineup__titulo {
+    font-family: 'Calistoga', cursive; 
+    font-size: 64px;
+    color: #444444;
+}
+
+.lineup__sabado, .lineup__domingo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+}
+
+.linha-horizontal-sabado {
+    position: relative;
+    display: inline-flex;
+    width: 359.5px;
+    border: 1px solid #DF9010;
+}
+
+.linha-horizontal-domingo {
+    position: relative;
+    display: inline-flex;
+    width: 337.5px;
+    border: 1px solid #DF9010;
+}
+
+.lineup__data {
+    background-color: #DF9010;
+    font-family: 'Calistoga', cursive;
+    font-size: 48px;
+    color: white;
+    padding: 16px;
+}
+
+.lineup__cantores__principal{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    color:#444444;
+}
+
+.lineup__cantores__linha1, .lineup__cantores__linha2, .lineup__cantores__linha3  {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.lineup__cantores__linha1 {
+    font-size: 40px;
+    color:#444444;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.lineup__cantores__linha2 {
+    font-size: 32px;
+    color:#444444;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+.lineup__cantores__linha3 {
+    font-size: 32px;
+    color:#444444;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+
+.imagem__diversao {
+    width: 100%;
+    margin: 5% 0;
+    margin-bottom: 0;
+    mix-blend-mode: multiply;
+}
+
+/* CSS DA PARTE DO FOOTER */
+
+footer {
+    background: url(coral2.png);
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 120px;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: #444444;
+}
+
+.logo-preta {
+    width: 233.9px;
+}
+
+.footer__parte1 {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Raleway', sans-serif;
+    color: #444444;
+}
+
+.footer__parte2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 8px;
+    
+}
+
+/* CSS DE A EXPERICIENA */
+
+.banner-a-experiencia {
+    display: flex;
+    background: url(experiencia.png);
+    height: 407px;
+    width: 100%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100%;
+    padding: 0 121px;       
+    justify-content: center;
+    align-items: center;  
+}
+
+.introducao__experiencia {
+    
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    flex-direction: column;
+    gap: 128px;
+    padding: 5% 0;
+}
+
+.experiencia__imagem1, .experiencia__imagem3 {
+    padding-right:  48px;
+}
+
+.experiencia__imagem2 {
+    padding-left: 48px;
+}
+
+.introducao__parte1, .introducao__parte2, .introducao__parte3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.introducao__experiencia__texto{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.introducao__experiencia__subtitulos1, .introducao__experiencia__subtitulos2, .introducao__experiencia__subtitulos3 {
+    font-size: 32px;
+    color: #444444;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    padding: 24px 0;
+}   
+
+.introducao__experiencia__informacao1, .introducao__experiencia__informacao2, .introducao__experiencia__informacao3 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #444444;
+    font-family: 'Raleway', sans-serif;
+    width: 540px;
+    line-height: 40px;
+}
+
+.introducao__experiencia__informacao1, .introducao__experiencia__informacao3 {
+    text-align: left;
+}
+
+.introducao__experiencia__informacao2, .introducao__experiencia__subtitulos2{
+    text-align: right;
+}
+
+
+/* CSS DO MAPA DE SETORES - PRIMEIRA PARTE */ 
+
+.banner-mapa {
+    display: flex;
+    background: url(mapa.png);
+    height: 407px;
+    width: 100%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100%;
+    padding: 0 121px;       
+    justify-content: center;
+    align-items: center;      
+}
+
+
+.mapa__parte1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 120px;
+    box-sizing: border-box;
+        
+}
+
+.titulo__legenda {
+    font-family: 'Raleway', sans-serif;    
+    font-size: 32px;
+    color: #444444;
+    font-weight: 700;
+
+}
+
+.legenda {
+    display: flex;
+    flex-direction: column;
+    margin-left: 48px;
+    gap: 24px;
+}
+
+.azul1 {
+    width: 32px;
+    height: 32px;
+    background: #0E7DF1;
+    margin-right: 16px;
+}
+
+.rosa { 
+    width: 32px;
+    height: 32px;
+    background: #FE016E;
+    margin-right: 16px;
+    
+    
+}
+
+.verde {
+    width: 32px;
+    height: 32px;
+    background: #01A89E;
+    margin-right: 16px;
+}
+
+
+.azul2 {
+    width: 32px;
+    height: 32px;
+    background: #3F51B5;
+    margin-right: 16px;
+}
+
+
+.azul3 {
+    width: 32px;
+    height: 32px;
+    background: #0E7DF1;
+    margin-right: 16px;
+}
+
+.legenda__cores {
+    display: flex;
+    font-family: 'Raleway', sans-serif;    
+    font-size: 32px;
+    color: #444444;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 24px 0;
+    align-items: center;
+}
+
+/* CSS DO MAPA DE SETORES - SEGUNDA PARTE */ 
+.mapa__parte2__titulo {
+       
+    font-size: 40px;
+    font-weight: 700;
+    color: #444444;
+    font-family: 'Raleway', sans-serif;  
+    text-align: center;
+    padding: 48px 0;
+    
+}
+
+.mapa__parte2__informacoes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center flex-start;
+    padding: 0 120px;
+    
+}
+
+.mapa__parte2__pista__premium {
+    align-self: flex-end;
+}
+
+.mapa__parte2__subtitulos {
+    font-size: 32px;
+    font-weight: 700;
+    color: #444444;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    padding: 24px 0;
+}
+
+.mapa__parte2__texto {
+    font-size: 20px;
+    font-weight: 500;
+    color: #444444;
+    font-family: 'Raleway', sans-serif;
+    line-height: 40px;
+    text-align: center;
+    width: 383px;
+}
+
+.mapa__parte2__pista__premium {
+    margin-top: 106px;
+}
+
+.mapa__parte2__imagem:hover {
+    transform: scale(1.2);
+}
+
+/* CSS DA PARTE DE INFORMACOES */
+
+.banner-informacoes {
+    display: flex;
+    background: url(informacoes.png);
+    height: 407px;
+    width: 100%;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    min-height: 100%;
+    padding: 0 121px;       
+    justify-content: center;
+    align-items: center;      
+}
+
+.banner-texto-informacoes {
+    width: 567px;
+    color: #444444;
+    font-family: 'Calistoga', cursive;
+    font-size: 64px;
+    text-align: center;
+}
+
+.informacoes__titulo {
+    
+    color: #444444;
+    font-family: 'Calistoga', cursive;
+    font-size: 48px;
+    text-align: center;
+    padding-bottom: 48px;
+    
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    padding: 50px;
+}
+
+.informacoes__pergunta {
+    background-color: #2E7BA2;
+    color: white;
+    width: 1000px;
+    padding: 16px;
+    font-weight: 700;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+}
+
+.informacoes__resposta {
+    background-color: #C8DEEF;
+    color: #444444;
+    width: 1000px;
+    padding: 16px;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.informacoes__links {
+    color: #444444;
+}
